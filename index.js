@@ -44,7 +44,7 @@ function runHelp() {
         'coding',
         'Slackbot Options: I can tell you a joke or give you an inspirational quote, your choice!',
         ':robot_emoji:'
-    )
+    );
 }
 
 function tellJoke() {
@@ -56,7 +56,8 @@ function tellJoke() {
                 'coding',
                 `:bangbang: ${joke}`
             );
-        })
+        }
+    );
 }
 
 function inspire() {
@@ -71,5 +72,6 @@ function inspire() {
                 'coding',
                 `:angel: ${quote} -- ${author}`
             );
-        })
+        }
+    );
 }
